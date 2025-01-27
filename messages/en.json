@@ -1,0 +1,22 @@
+{
+    "Steps": {
+      "step1": "Start by creating your translation files in the {folder} folder. Each file (e.g., {example1}, {example2}) should contain the key-value pairs for translations.",
+      "step2": "Add compatible routers in the {file} file to display pages that match the language.",
+      "step3": "Wrap your application with {provider} in {layout}. This provides translation context to your app. (Already added)",
+      "step4": "Use the {hook} hook in your components or pages to access localized strings.",
+      "step5": "Save your files and test by switching between languages in the URL (e.g., {url1}, {url2})."
+    },
+    "Placeholders": {
+      "folder": "messages/",
+      "example1": "en.json",
+      "example2": "az.json",
+      "file": "app/[locale]",
+      "provider": "NextIntlProvider",
+      "layout": "app/[locale]/layout.js",
+      "hook": "useTranslations",
+      "url1": "/en",
+      "url2": "/az",
+      "all": "Explore all templates"
+    }
+  }
+  

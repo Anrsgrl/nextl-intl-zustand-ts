@@ -1,0 +1,22 @@
+{
+    "Steps": {
+      "step1": "Tərcümə fayllarınızı {folder} qovluğunda yaradın. Hər dil üçün bir fayl (məsələn, {example1}, {example2}) açar-dəyərləri ilə tərcümələri daxil etməlidir.",
+      "step2": "Dilə uyğun səhifələri göstərmək üçün {file} faylında uyğun routerları əlavə edin.",
+      "step3": "{layout} faylında tərcümə ediləcək kontenti {provider} ilə əhatə edirik. (Əlavə edilib)",
+      "step4": "Tərcümə fayllarındaki mətnləri istifadə etmək üçün komponentlərinizdə və ya səhifələrinizdə {hook} funksiyasından istifadə edin.",
+      "step5": "Fayllarınızı yadda saxlayın və URL-də dilləri dəyişərək (məsələn, {url1}, {url2}) test edin."
+    },
+    "Placeholders": {
+      "folder": "messages/",
+      "example1": "en.json",
+      "example2": "az.json",
+      "file": "app/[locale]",
+      "provider": "NextIntlProvider",
+      "layout": "app/[locale]/layout.js",
+      "hook": "useTranslations",
+      "url1": "/en",
+      "url2": "/az",
+      "all": "Bütün şablonlara bax"
+    }
+  }
+  
