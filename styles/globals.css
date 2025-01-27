@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer components{
+  .step-code{
+    @apply bg-black/[.05] dark:bg-[rgba(0,158,103,0.5)] hover:dark:bg-[rgba(0,158,103,1)] transition-all ease-linear duration-300 cursor-pointer px-1 py-0.5 rounded font-semibold
+  }
+}
